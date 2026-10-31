@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.casperedmusic.s905xtvlauncher'
+    compileSdk 28
+
+    defaultConfig {
+        applicationId 'com.casperedmusic.s905xtvlauncher'
+        minSdk 24
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
